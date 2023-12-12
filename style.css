@@ -20,7 +20,12 @@
     align-items: center;
     justify-content: center;
 }
-
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
 .profile-box {
     background-color:black;
     text-align: center;
