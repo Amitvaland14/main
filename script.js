@@ -5,3 +5,8 @@ let typed = new Typed(".typing", {
     BackSpeed:100,
     loop:true
 })
+/*==*/
+const audio = new Audio("./song.mp3");
+document.onclick = ()=>{
+    audio.play()
+}
